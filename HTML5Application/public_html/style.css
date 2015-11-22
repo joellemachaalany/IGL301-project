@@ -1,8 +1,50 @@
 *{
-    font-family: comic sans ms, sans-serif;
+    font-family: comic sans ms,sand-serif;
     color: white;
 }
 
-body{
-    background: linear-gradient(gold, black 5%);
+#wrapper{
+    height: 667px;
+    width: 1366px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url('images/background.jpg');
+    background-attachment: fixed;
 }
+
+#header{
+    width: 200px;
+    height: 55px;
+    position: relative;
+    left: 0px;
+    background-color: white;
+    border: black solid 5px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+#header>h1{
+    display: inline;
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+
+#header>h2{
+    display: inline;
+    position: relative;
+    top: -15px;
+    left: -5px;
+}
+
+.name{
+    color: black;
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+#content{
+    border: black solid 5px;
+}
+
