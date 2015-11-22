@@ -13,6 +13,17 @@
     background-attachment: fixed;
 }
 
+a{
+    text-decoration: none;
+    margin: 30px;
+    font-variant: small-caps;
+}
+
+a:hover{
+    color:red;
+    font-weight: bolder;
+}
+
 #header{
     width: 200px;
     height: 55px;
@@ -20,8 +31,11 @@
     left: 0px;
     background-color: white;
     border: black solid 5px;
+    border-style: double;
     border-radius: 10px;
-    margin: 10px auto;
+    margin-top: 10px;
+    margin-left:13px; 
+    display: inline-block;
 }
 
 #header>h1{
@@ -44,7 +58,118 @@
     font-weight: bolder;
 }
 
-#content{
-    border: black solid 5px;
+.content{
+    width: 550px;
+    height: 28px;
+    border: white solid 5px;
+    display: inline-block;
+    margin-top: 24px;
 }
+
+#profile{
+    margin-right:245px;
+}
+
+#content1{
+    float: left;
+    text-align: right;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-right: 10px;
+}
+
+#content2{
+    float: right;
+    text-align: left;
+    border-right: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 10px;
+}
+
+#headerwrapper{
+    width: 1366px;
+    display: inline-block;
+}
+
+#page{
+    width: 1200px;
+    height: 500px;
+    margin: 30px auto;
+    border: white solid 5px;
+}
+
+#page>.link{
+    width: 350px;
+    text-transform: uppercase;
+    font-size: 50px;
+    position: relative;
+    top:-90px;
+    letter-spacing: 20px;
+    color: black;
+    left: 20px;
+    background-color:white;
+    padding-left: 15px;
+    border-radius: 50px;
+}
+
+#pagecontent{
+    height: 210px;
+    width: 1200px;
+    position: relative;
+    top: -100px;
+    margin: 0px auto;
+    border-bottom: white solid 3px;
+    text-align: center;
+}
+
+#pagecontent>p{
+    display: inline;
+}
+
+#pagecontent>p>a{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#pagecontent>#contactname{
+    position: relative;
+    top: 40px;
+    left: -350px;
+    font-size: 30px;
+}
+
+#pagecontent>a>img{
+     width:200px;
+     height:150px;
+     position: relative;
+     border-radius: 30px;
+}
+
+#pagefooter{
+    height: 222px;
+    width: 1200px;
+    background-color: white;
+    position: relative;
+    top:-116px;
+}
+
+#pagefooter>ul>li{
+    display: inline;
+    color:black;
+    
+}
+
+#pagefooter>ul>li>a{
+    background-color: darkblue;
+    padding: 7px;
+            margin-top: 15px;
+
+}
+
 
