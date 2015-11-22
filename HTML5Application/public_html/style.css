@@ -68,6 +68,8 @@ a:hover{
 
 #profile{
     margin-right:245px;
+    color: red;
+    border-bottom: red solid 2px;
 }
 
 #content1{
@@ -118,7 +120,7 @@ a:hover{
     height: 210px;
     width: 1200px;
     position: relative;
-    top: -100px;
+    top: -160px;
     margin: 0px auto;
     border-bottom: white solid 3px;
     text-align: center;
@@ -145,31 +147,104 @@ a:hover{
 }
 
 #pagecontent>a>img{
-     width:200px;
-     height:150px;
-     position: relative;
-     border-radius: 30px;
+    width:200px;
+    height:150px;
+    position: relative;
+    border-radius: 30px;
 }
 
 #pagefooter{
-    height: 222px;
+    height: 277px;
     width: 1200px;
-    background-color: white;
+    background-color: blue;
     position: relative;
-    top:-116px;
+    top:-176px;
+}
+
+#pagefooter>ul{
+    padding-top: 15px;
+
 }
 
 #pagefooter>ul>li{
     display: inline;
     color:black;
-    
-}
-
-#pagefooter>ul>li>a{
-    background-color: darkblue;
-    padding: 7px;
-            margin-top: 15px;
 
 }
 
+#pagecontent>#profilecontent{
+    width: 1200px;
+    height: 148px;
+}
 
+#pagecontent>#profilecontent>li{
+    display: inline;
+}
+
+#pagefooter>#profilecontent>#bio{
+    padding-right: 400px;
+    padding-bottom: 70px;
+    border-right: black solid 3px;
+}
+
+#pagefooter>#profilecontent>#bio>#subbio{
+    position: relative;
+    left: -20px;
+    top: 10px;
+    width: 380px;
+    border-right: black solid 3px;
+}
+
+#pagefooter>#profilecontent>#posts{
+    position: relative;
+    top: -90px;
+    border-left: black solid 3px;
+    left: -3px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+}
+
+#pagefooter>#profilecontent>#posts>#subposts{
+    position: relative;
+    left: 420px;
+    top: 10px;
+    width: 700px;
+}
+
+#socialnetwork{
+    width: 281px;
+    height: 28px;
+    position: relative;
+    top: -30px;
+    left: 1013px;
+}
+
+#socialnetwork>p{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    padding-top: 0px;
+    float: left;
+    position: relative;
+    top:-16px;
+}
+
+#socialnetwork>a{
+    padding: 5px;
+    margin: 0px;
+}
+
+#socialnetwork>a>img{
+    width: 25px;
+    height: 25px;
+}
+
+#footer{
+    position: relative;
+    width: 1200px;
+    top: -45px;
+}
+
+#footer>p{
+    text-align: center;
+}
