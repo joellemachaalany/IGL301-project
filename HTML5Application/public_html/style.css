@@ -102,7 +102,7 @@ a:hover{
     border: white solid 5px;
 }
 
-#page>.link{
+#page>#link{
     width: 350px;
     text-transform: uppercase;
     font-size: 50px;
@@ -114,6 +114,7 @@ a:hover{
     background-color:white;
     padding-left: 15px;
     border-radius: 50px;
+    text-align: center;
 }
 
 #pagecontent{
@@ -197,7 +198,7 @@ a:hover{
 
 #pagefooter>#profilecontent>#posts{
     position: relative;
-    top: -90px;
+    top: -110px;
     border-left: black solid 3px;
     left: -3px;
     padding-left: 5px;
@@ -247,4 +248,69 @@ a:hover{
 
 #footer>p{
     text-align: center;
+}
+
+#news{
+    position: relative;
+    top: -130px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#news>ul>li{
+    border: white solid 3px;
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: blue;
+
+}
+
+#news>ul>li>.newscontent{
+    display: inline;
+    vertical-align: top;
+    position: relative;
+    left: -25px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#news>ul>li>p{
+    vertical-align: bottom;
+    display: inline;
+    position: relative;
+
+}
+
+#news>ul>li>a>img{
+    width: 35px;
+    height: 35px;
+}
+
+#quotes{
+    position: relative;
+    top: -130px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#quotes>ul>li{
+    border: white solid 3px;
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: blue;
+    height: 45px;
+}
+
+#quotes>ul>li>pre{
+    position: relative;
+    top:-15px;
+    text-align: center;
+}
+
+#quotes>ul>li>p{
+    text-align: center;
+    position: relative;
+    top: -35px;
+    color:black;
+    font-weight: bolder;
 }
