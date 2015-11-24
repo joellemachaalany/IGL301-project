@@ -6,7 +6,7 @@
 #wrapper{
     height: 667px;
     width: 1366px;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     background-image: url('images/background.jpg');
@@ -72,6 +72,12 @@ a:hover{
     border-bottom: red solid 2px;
 }
 
+#contest{
+    margin-right:235px;
+    color: red;
+    border-bottom: red solid 2px;
+}
+
 #content1{
     float: left;
     text-align: right;
@@ -108,7 +114,7 @@ a:hover{
     font-size: 50px;
     position: relative;
     top:-90px;
-    letter-spacing: 20px;
+    letter-spacing: 15px;
     color: black;
     left: 20px;
     background-color:white;
@@ -278,7 +284,6 @@ a:hover{
     vertical-align: bottom;
     display: inline;
     position: relative;
-
 }
 
 #news>ul>li>a>img{
@@ -313,4 +318,121 @@ a:hover{
     top: -35px;
     color:black;
     font-weight: bolder;
+}
+
+#eventswrapper{
+    width: 1204px;
+    height: 450px;
+    position: relative;
+    top: -120px;  
+    left: 2px;
+}
+
+.events{
+    width: 400px;
+    height: 467px;
+    border-right: black solid 3px;
+    border-top: white solid 3px;
+    position: relative;
+    top: -20px;
+    background: linear-gradient(black, blue 50%);
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.events>ul{
+    position: relative;
+    left: -30px;
+    top:-30px;
+    list-style: none;
+
+}
+
+.events>p{
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    top: -15px;
+    border-bottom: dashed;
+}
+
+.events>ul>li>ul{
+    position: relative;
+    left: -10px;
+}
+
+.events>ul>li>ul>li>ul{
+    position: relative;
+    left: -15px;
+    top: -10px;
+}
+
+#other{
+    border-right: none;
+    position: relative;
+    top: -181px;
+}
+
+#resto{
+    position: relative;
+    top: -204px;
+}
+
+
+#page>a>img{
+    width: 270px;
+    height: 170px;
+}
+
+#page>a{
+    position: relative;
+    top: -115px;
+}
+
+#page>p{
+    position: relative;
+    top: -125px;
+    left:50px;
+    color:black;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+table,#PS{
+    position: relative;
+    top: -480px;
+    left: 350px;
+    width: 370px;
+    border: solid 5px;
+    font-size: 17px;
+    border-collapse: collapse;
+    background-color: blue;
+}
+
+.empty{
+    background-color: red;
+}
+
+th{
+    color: black;
+}
+
+#surgery{
+    width: 270px;
+    height: 370px;
+    position: relative;
+    left: 800px;
+    top: -650px;
+}
+
+#page>#plasticsurgery{
+    position: relative;
+    left: 850px;
+    top: -770px;
+}
+
+#PS{
+    position: relative;
+    left: 780px;
+    top: -750px;
 }
