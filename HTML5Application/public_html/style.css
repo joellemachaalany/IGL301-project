@@ -24,6 +24,10 @@ a:hover{
     font-weight: bolder;
 }
 
+a:active{
+    color: blue;
+}
+
 #header{
     width: 200px;
     height: 55px;
@@ -106,6 +110,7 @@ a:hover{
     height: 500px;
     margin: 30px auto;
     border: white solid 5px;
+    background: linear-gradient(transparent,opacity 100%);
 }
 
 #page>#link{
@@ -393,7 +398,6 @@ a:hover{
     position: relative;
     top: -125px;
     left:50px;
-    color:black;
     font-weight: bolder;
     font-size: 15px;
 }
