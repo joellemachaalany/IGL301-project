@@ -4,7 +4,7 @@
 }
 
 #wrapper{
-    height: 667px;
+    height: 675px;
     width: 1366px;
     position: fixed;
     top: 0px;
@@ -71,13 +71,7 @@ a:active{
 }
 
 #profile{
-    margin-right:245px;
-    color: red;
-    border-bottom: red solid 2px;
-}
-
-#contest{
-    margin-right:235px;
+    margin-right:218px;
     color: red;
     border-bottom: red solid 2px;
 }
@@ -285,11 +279,12 @@ a:active{
     font-size: 13px;
 }
 
-#news>ul>li>p{
+.para{
     vertical-align: bottom;
     display: inline;
-    position: relative;
+    position:relative;
 }
+
 
 #news>ul>li>a>img{
     width: 35px;
