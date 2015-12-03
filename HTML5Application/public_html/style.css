@@ -406,7 +406,7 @@ table,#PS{
     top: -480px;
     left: 350px;
     width: 370px;
-    border: solid 5px;
+    border: lightblue solid 5px;
     font-size: 17px;
     border-collapse: collapse;
     background-color: blue;
