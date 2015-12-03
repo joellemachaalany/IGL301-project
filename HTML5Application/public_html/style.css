@@ -436,3 +436,9 @@ th{
     left: 780px;
     top: -750px;
 }
+
+.titles{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+}
